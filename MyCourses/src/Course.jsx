@@ -5,11 +5,11 @@ function Course({ course }) {
     return (
         <div className='course'>
             <div className='course'>
-                <img src={image} width={250} height={150} />
+                <img src={image} width={355} height={150} />
                 <h4 className='course-title'>{title}</h4>
                 <p className='course-desc'>{description}</p>
-                <h3 className='course-price'>{price}</h3>
-                <a href={link}>For buying</a>
+                <h3 className='course-price'>{price} AZN</h3>
+                <div className='course-link'><a style={{ textDecoration: 'none' }} href={link}>For buying</a></div>
             </div>
 
         </div>
